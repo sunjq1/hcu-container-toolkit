@@ -39,7 +39,7 @@ func (d *DeviceInfo) GetName() string {
 }
 
 func (d *DeviceInfo) GetUUID() string {
-	return d.serialNumber
+	return d.uniqueId
 }
 
 func (d *DeviceInfo) GetPCIBusID() string {
